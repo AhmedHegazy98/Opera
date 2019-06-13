@@ -1,0 +1,347 @@
+body{
+    overflow: hidden;
+}
+
+.activate {
+    color: #337ab7 !important;
+}
+ /*Start Navbar Section*/  
+.navbar{
+    min-width: 100%;
+    background-color: #FFF;
+    z-index: 9999999;
+    min-height: 70px;
+    box-shadow: -1px 0px 2px;
+    position: fixed !important;
+}
+.navbar-brand {
+    padding: 15px 20px !important;
+}
+.navbar a{
+    color:#252104;
+    font-weight: bolder;
+    font-family: cursive;
+    margin-top: 20px;
+    margin-bottom: 5px;
+
+}
+.navbar .logo a{
+    font-weight:bold; 
+    font-size: 50px;
+    font-family: fantasy;
+}
+.navbar .content {
+    float: right;
+}
+
+/************* carousle *********/
+.header {
+    height: 665px;
+    background-size: cover;
+
+}
+.carousel-inner {
+    height: 665px;
+}
+.carousel-inner img {
+    min-width: 100%;
+}
+.carousel-caption h1 {
+    font-size: 36px;
+    color: #302b2b75;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.carousel-caption .btn {
+    margin-bottom: 65px;
+}
+
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    display: block;
+    max-width: 100%;
+    height:665px !important;
+    background-size: cover;
+}
+.carousel-caption{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.carousel-indicators{
+    bottom: 0px;
+}
+.carousel-indicators li
+{
+    height: 15px;
+    width: 15px;
+    border: 1px solid #EEE ; 
+}
+.carousel-indicators .active
+{
+    height: 17px;
+    width: 17px;
+    background-color: #E41B17;
+}
+/* Start Services Section */
+.services {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.services h1 {
+    font-weight: bold;
+    font-family: cursive;
+    margin-bottom: 80px;
+}
+.services i {
+    font-size: 75px;
+}
+.services h2 {
+    font-weight: bold;
+}
+
+/* Start services-article Section */
+.services-article {
+    padding-top: 60px ;
+    padding-bottom: 60px ;
+    background:#eeeeff1f;
+
+}
+.services-article h1 ,
+    .services-article p{
+    font-family: cursive;
+}
+/* Start Video Section */
+.video {
+    padding-top: 40px;
+    margin-bottom: 20px;
+}
+.video iframe {
+    border-radius: 2%;
+    box-shadow: 2px 0px 2px 4px;
+}
+.video h2{
+    font-weight: bold;
+    font-family: cursive;
+} 
+
+/* Start footer Section */
+.footer {
+    background-color: #000;
+}
+.footer ul {
+    list-style: none;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: cursive;
+}
+.footer ul li{
+    margin: 11px;
+    font-size: 20px;
+    color: #FFF;
+}
+.footer .form{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+/* Start End Section */
+footer {
+       background-color: #004c8de3;
+       margin-bottom: -100px;
+}
+footer p{
+    padding: 10px;
+    margin:0px;
+    color: #FFF
+}
+/************* Start contact Page  *************/
+.contact{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.contact .row{
+   margin-top: 73px;
+   margin-bottom: 20px;
+}
+.contact h2 ,
+ label{
+        font-family: cursive;
+}
+.contact span{
+    font-weight: bold;
+}
+.contact textarea {
+    width: 400px;
+    height: 170px !important ;
+}
+.contact button ,
+    .contact button:hover  {
+    color: #fff;
+    background-color: #000000eb;
+    border-color: #ccc;
+    padding: 6px 40px;
+}
+
+.contact button i{
+    font-family: cursive;
+    font-size: 18px;
+}
+
+.contact .adress , 
+ .contact .social  {
+    font-family: cursive;
+}
+ .contact .social h4 {
+    padding-bottom: 15px;
+ }
+ /************* Start About Page  *************/
+
+ /* Start about Section */
+.about h1{
+    padding-top: 220px;
+     font-size: 70px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.about hr {
+    width: 783px;
+}
+.about h2{
+    font-size: 25px;
+    font-family: cursive;
+    padding-top: 40px;
+    padding-bottom: 63px;
+}
+/* Start phot gellery Section */
+.photo-gellery h1{
+    font-family: cursive;
+    margin-bottom: 40px;
+}
+
+.m-p-g__thumbs .row .col-lg-4 img{
+    width: 111% !important;
+    margin:5px  40px !important;
+}
+
+/* Start seo Section */
+ .seo {
+    margin-top: 60px;
+    padding-top: 100px;
+ }
+ .seo h1{
+    font-family: cursive;
+    font-weight: bold;
+}
+.seo h3{
+letter-spacing: 1px;
+}
+.seo button{
+    color: #fff;
+    background-color: #000000eb;
+    border-color: #ccc;
+    padding: 6px 40px;
+}
+/* Start features Section */
+.features {
+    padding-top: 20px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    background:#eeeeff1f;
+
+}
+.features i {
+    font-size: 75px;
+    padding-top: 60px;
+
+}
+
+ /************* Start Services Page  *************/
+.our-services {
+    margin-bottom: 80px;
+    font-family: cursive
+
+}
+.our-services .web-design{
+    margin-top: 150px;
+}
+.our-services h2 {
+    font-weight: bold;
+}
+.our-services span {
+    font-weight: bold;
+    font-size: 24px;
+    color: #806f6fb0;
+}
+.our-services p {
+color: #CCC;
+}
+.our-services .row {
+margin-bottom: 40px;
+
+}
+ /************* Start loading  *************/
+    .loading {
+        background: #222;
+        color: #FFF;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        z-index: 9999999;
+    }
+    .spinner {
+      width: 60px;
+      height: 60px;
+
+      position: relative;
+      margin: 300px auto;
+    }
+
+    .double-bounce1, .double-bounce2 {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      background-color: #1caa98;
+      opacity: 0.6;
+      position: absolute;
+      top: 0;
+      left: 0;
+      
+      -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+      animation: sk-bounce 2.0s infinite ease-in-out;
+    }
+
+    .double-bounce2 {
+      -webkit-animation-delay: -1.0s;
+      animation-delay: -1.0s;
+    }
+
+    @-webkit-keyframes sk-bounce {
+      0%, 100% { -webkit-transform: scale(0.0) }
+      50% { -webkit-transform: scale(1.0) }
+    }
+
+    @keyframes sk-bounce {
+      0%, 100% { 
+        transform: scale(0.0);
+        -webkit-transform: scale(0.0);
+      } 50% { 
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+      }
+    }
+/* start section scroll-top*/
+.scroll-top {
+    width: 45px;
+    height: 20px;
+    left: 1203px;
+    bottom: 10px;
+    padding: 0px 0px 50px 0 !important;
+    color: #fcb000;;
+    text-align: center;
+    position: fixed;
+    opacity: 0.5 ;
+    z-index: 9999;
+    cursor: pointer;
+    display: none;
+}
+/* End section scroll-top*/
